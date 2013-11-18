@@ -25,7 +25,7 @@ Open up the .reg file. You'll see these lines:
     [HKEY_CLASSES_ROOT\mpc\shell\open\command]
     @="\"D:\\WorkDirs\\Resources\\Apps\\mpcintent\\mpcintent.bat\" \"%1\""
 
-These are the lines referencing to to the location of the .bat file. Change it to where you put your file. Note that you have to use double backslashes (\\) in the path instead of single. This is important. So C:\Windows\mpcintent.bat becomes
+These are the lines referencing to to the location of the .bat file. Change it to where you put your file. Note that you have to use double backslashes ( \\\ ) in the path instead of single. This is important. So C:\Windows\mpcintent.bat becomes
 
     @="\"C:\\Windows\\mpcintent.bat\" \"%1""
 
