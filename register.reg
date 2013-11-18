@@ -1,0 +1,12 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\mpc]
+@="URL:foo Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\mpc\shell]
+
+[HKEY_CLASSES_ROOT\mpc\shell\open]
+
+[HKEY_CLASSES_ROOT\mpc\shell\open\command]
+@="\"D:\\WorkDirs\\Resources\\Apps\\mpcintent\\mpcintent.bat\" \"%1\""
